@@ -1,0 +1,523 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+.container1>img{
+    position:absolute;
+    left:648px;
+    top:34px;
+    height:101px;
+    width:151px;
+}
+nav{
+    position:absolute;
+    left:365px;
+    top:183px;
+}
+a{
+    padding:20px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28%;
+    line-height:100%;
+    color:#957554;
+}
+@font-face {
+    font-family: "ubuntu";
+    src: url(/ubuntu.ttf);
+}
+.search>img{
+    position:absolute;
+    height:15px;
+    width:15px;
+    top:190px;
+    left:1020px;
+}
+.container2{
+    position:relative;
+    background-color:#111111;
+    width:100%;
+    height:119px;
+    margin-top:241px;
+}
+.container3{
+    position:absolute;
+    left:318px;
+    top:26px;
+    width:192px;
+    height:60px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    padding-left:17px;
+    font-family:"ubuntu";
+    font-size:20px;
+    line-height:23px;
+    line-height:100%;
+    color:rgba(0, 0, 0, 0.5);
+}
+.vector>img{
+    position:absolute;
+    left:153px;
+    top:27.44px;
+    width:17px;
+    height:12px;
+}
+.container4{
+    position:relative;
+    top:27px;
+    left:523px;
+    height:60px;
+    width:192px;
+    border-radius:10px;
+    background-color:#FFFFFF;
+    padding-left:17px;
+    display:flex;
+    align-items:center;
+    font-family:"ubuntu";
+    font-size:20px;
+    line-height:23px;
+    line-height:100%;
+    color:rgba(0, 0, 0, 0.5);
+}
+.calendar>img{
+    position:absolute;
+    left:161px;
+    top:20.5px;
+    height:17.5px;
+    width:16px;
+}
+.container5{
+    position:absolute;
+    left:728px;
+    top:27px;
+    width:192px;
+    height:60px;
+    border-radius:10px;
+    background-color:#FFFFFF;
+    padding-left:17px;
+    display:flex;
+    align-items:center;
+    font-family:"ubuntu";
+    font-size:20px;
+    line-height:100%;
+    color:rgba(0, 0, 0, 0.5);
+}
+.calendar2>img{
+    position:absolute;
+    left:160px;
+    top:22px;
+}
+.container6{
+    position:absolute;
+    left:936px;
+    top:27px;
+    height:60px;
+    width:202px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    font-family:"ubuntu";
+    font-size:20px;
+    line-height:23px;
+    line-height:100%;
+    color:#FFFFFF;
+    background-color:#DFAA5B;
+}
+.container7>img{
+    position:relative;
+    width:100%;
+    height:790px;    
+    background-image:url(/cover.png);
+    border-image-repeat: no-repeat;
+    background-size:cover;
+}
+.text{
+    position:absolute;
+    left:244px;
+    top:681px;
+    height:106px;
+    width:1000px;
+    font-family:"ubuntu";
+    font-size:80px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container8{
+    position:absolute;
+    left:480px;
+    top:780px;
+    height:28px;
+    width:474px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container9{
+    position:absolute;
+    left:535px;
+    top:835px;
+    height:76px;
+    width:371px;
+    border-radius:10px;
+    background-color:#DFAA5B;
+    color:#FFFFFF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+}
+.container10{
+    position:relative;
+    top:-150px;
+    left:61px;
+    height:289px;
+    width:1319px;
+    border-radius:10px;
+    background-color:#FFFFFF;
+}
+.container11{
+    position:absolute;
+    left:628px;
+    top:1031px;
+    font-family:"ubuntu";
+    font-size:45px;
+    line-height:52px;
+    line-height:100%;
+    color:#957554;
+}
+.kitchen>img{
+    position:absolute;
+    left:258px;
+    top:1134px;
+}
+.container12{
+    position:absolute;
+    left:244px;
+    top:1204px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#957554;
+}
+.swim>img{
+    position:absolute;
+    left:473px;
+    top:1135.5px;
+}
+.container13{
+    position:absolute;
+    left:476px;
+    top:1204px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#957554;
+}
+.wifi{
+    position:absolute;
+    top:1135px;
+    left:691px;
+}
+.container14{
+    position:absolute;
+    left:698px;
+    top:1204px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#957554;
+}
+.gym{
+    position:absolute;
+    left:911px;
+    top:1148px;
+}
+.container15{
+    position:absolute;
+    left:914px;
+    top:1204px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#957554;
+}
+.taxi{
+    position:absolute;
+    left:1127px;
+    top:1135px;
+}
+.container16{
+    position:absolute;
+    left:1135px;
+    top:1204px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#957554;
+}
+.container17{
+    position:absolute;
+    left:564px;
+    top:1334px;
+    font-family:"ubuntu";
+    font-size:45px;
+    line-height:52x;;
+    line-height:100%;
+    color:#957554;
+}
+.room1>img{
+    position:absolute;
+    left:60px;
+    top:1439px;
+}
+.container18{
+    position:absolute;
+    left:195px;
+    top:1740px;
+    font-family:"ubuntu";
+    font-size:40px;
+    line-height:46px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container19{
+    position:absolute;
+    left:240px;
+    top:1805px;
+    height:76px;
+    width:244px;;
+    border-radius:10px;
+    background-color:#DFAA5B;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.room2>img{
+    position:absolute;
+    left:750px;
+    top:1439px;
+}
+.container20{
+    position:absolute;
+    left:940px;
+    top:1740px;
+    font-family:"ubuntu";
+    font-size:40px;
+    line-height:46px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container21{
+    position:absolute;
+    left:941px;
+    top:1805px;
+    height:76px;
+    width:244px;
+    border-radius:10px;
+    background-color:#DFAA5B;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.room3{
+    position:absolute;
+    left:60px;
+    top:1997px;
+}
+.container22{
+    position:absolute;
+    left:145px;
+    top:287px;
+    font-family:"ubuntu";
+    font-size:40px;
+    line-height:46px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container23{
+    position:absolute;
+    left:193px;
+    top:367px;
+    height:78px;
+    width:244px;
+    background-color:#DFAA5B;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.room4{
+    position:absolute;
+    left:749px;
+    top:1997px;
+}
+.container24{
+    position:absolute;
+    left:203px;
+    top:287px;
+    font-family:"ubuntu";
+    font-size:40px;
+    line-height:46px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container25{
+    position:absolute;
+    left:185px;
+    top:367px;
+    height:76px;
+    width:244px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    border-radius:10px;
+    background-color:#DFAA5B;
+    color:#FFFFFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container26{
+    position:absolute;
+    left:61px;
+    top:2550px;
+    height:277px;
+    width:1319px;
+    color:#FFFFFF;
+}
+.container27{
+    position:absolute;
+    left:490px;
+    top:61px;
+    color:#957554;
+    font-family:"ubuntu";
+    font-size:45px;
+    line-height:52px;
+    line-height:100%;
+}
+.container28{
+    position:absolute;
+    left:470px;
+    top:151px;
+    height:76px;
+    width:418px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#DFAA5B;
+    color:#FFFFFF;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    border-radius:10px;
+}
+.container29{
+    position:absolute;
+    top:2889px;
+    width:100%;
+    height:469px;
+    background-color:#111111;
+}
+.logo{
+    position:absolute;
+    left:59px;
+    top:61px;
+    background-color:#111111;
+}
+.container30{
+    position:absolute;
+    left:59px;
+    top:255px;
+    color:#FFFFFF;
+    width:263px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+}
+.text{
+    position:absolute;
+    width:194px;
+    height:249px;
+    left:555px;
+    top:61px;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:250%;
+    color:#FFFFFF;
+}
+.container31{
+    position:absolute;
+    left:999px;
+    top:65px;
+    font-family:"ubuntu";
+    font-size:30px;
+    line-height:34px;
+    line-height:100%;
+    color:#FFFFFF;
+}
+.container32{
+    position:absolute;
+    left:999px;
+    top:115px;
+    height:75px;
+    width:371px;
+    padding-left:27px;
+    padding-top:23px;
+    font-family:"ubuntu";
+    border-radius:10px;
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    background-color:#FFFFFF;
+    color:rgba(0, 0, 0, 0.5);
+}
+.container33{
+    position:absolute;
+    left:999px;
+    top:214px;
+    height:75px;
+    width:371px;
+    background-color:#DFAA5B;
+    font-family:"ubuntu";
+    font-size:24px;
+    line-height:28px;
+    line-height:100%;
+    color:#FFFFFF;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
